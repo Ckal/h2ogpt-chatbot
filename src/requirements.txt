@@ -1,7 +1,7 @@
-# for generate (gradio>=4.0.0 server) and finetune
+# for generate (gradio>=4.44.0 server) and finetune
 datasets==2.13.0
 sentencepiece==0.1.99
-gradio>=4.0.0
+gradio>=4.44.0
 huggingface_hub==0.16.4
 appdirs==1.4.4
 fire==0.5.0
@@ -11,7 +11,7 @@ evaluate==0.4.0
 rouge_score==0.1.2
 sacrebleu==2.3.1
 scikit-learn==1.2.2
-# optional (need to uncomment code in gradio>=4.0.0_runner.py for import of better_profanity)
+# optional (need to uncomment code in gradio>=4.44.0_runner.py for import of better_profanity)
 # alt-profanity-check==1.2.2
 # better-profanity==0.7.0
 numpy==1.24.3
@@ -35,8 +35,8 @@ botocore==1.29.101
 tensorboard==2.13.0
 neptune==1.2.0
 
-# for gradio>=4.0.0 client
-gradio>=4.0.0_client==0.5.0
+# for gradio>=4.44.0 client
+gradio>=4.44.0_client==0.5.0
 beautifulsoup4==4.12.2
 markdown==3.4.3
 
